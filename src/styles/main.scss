@@ -1,0 +1,84 @@
+$mainColor : #f8133c;
+
+* {
+    list-style-type: none;
+    font-family: sans-serif;
+}
+a {
+    list-style: none;
+    text-decoration: none;
+}
+nav {
+    li {
+        padding: 15px;
+        a {
+            color: white;
+            font-weight: bold;
+        }
+    }
+}
+
+.cart {
+    font-size:30px !important;
+}
+.book {
+    background-color: $mainColor;
+    padding: 20px 20px;
+}
+.mw-1340 {
+    max-width: 1340px;
+}
+.cover {
+    position: relative;
+    background-size: cover;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://assets.website-files.com/63627969e697b69f5ad5987a/63629f049890ac3bb1830b32_image-hero-home-tattooist-webflow-template.jpg");
+    width: 100%;
+    height: 100vh;
+    .overlay {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.253);
+        position: absolute;
+        top: 0px;
+        left: 0;
+    }
+    .cont-1 {
+        max-width: 1200px;
+        text-align: center;
+        margin-top: 100px;
+        h1,p {
+            color: white;
+        }
+        h1 {
+            font-weight: bold;
+            letter-spacing: -2px;
+            font-size: 5rem;
+        }
+        .logo {
+            width:20rem;
+        }
+    }
+    .buttons {
+        margin-top: 70px;
+        button {
+            margin: 10px;
+            padding: 23px 40px; 
+            color: white;
+            font-weight: bold; 
+            transition: 0.3s;
+            &:hover {
+                transform:   translateY(-5px);
+            }
+            
+        }
+        .ol {
+            background-color: transparent;
+            border: 1px solid white;
+            &:hover {
+                background-color: white;
+                color: black;
+            }
+        }
+        
+    }
+}
